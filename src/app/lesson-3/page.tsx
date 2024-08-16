@@ -5,7 +5,7 @@ export default function Lesson3() {
     const title = "Lesson 3 - (Advanced) Accept both inline";
     return (
         <main>
-            <Container maxWidth="md">
+            <Container maxWidth="md" sx={{ mt: 2 }}>
                 <Typography variant="h2" component="h1">
                     {title}
                 </Typography>

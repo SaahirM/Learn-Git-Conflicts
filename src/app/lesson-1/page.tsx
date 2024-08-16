@@ -10,7 +10,7 @@ export default function Lesson1() {
 
     return (
         <main>
-            <Container maxWidth="md">
+            <Container maxWidth="md" sx={{ mt: 2 }}>
                 <Typography variant="h2" component="h1">
                     {title}
                 </Typography>

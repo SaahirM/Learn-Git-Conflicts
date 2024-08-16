@@ -5,7 +5,7 @@ import Link from "next/link";
 export default function Home() {
     return (
         <main>
-            <Container maxWidth="lg">
+            <Container maxWidth="lg" sx={{ mt: 2 }}>
                 <Typography variant="h2" component="h1">
                     Learn Git Conflicts
                 </Typography>
