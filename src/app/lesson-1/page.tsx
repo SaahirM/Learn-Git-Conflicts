@@ -24,8 +24,8 @@ export default function Lesson1() {
                                 when you ask it to merge two separate branches
                                 with changes (often made by two separate people)
                                 to the same lines within the same files. To git,
-                                a merge conflict is a change seemingly made to
-                                the same place at the same time.
+                                a merge conflict is two changes seemingly made
+                                to the same place at the same time.
                             </Typography>
                             <Typography>
                                 It doesn&#39;t know which changes are the
@@ -47,7 +47,7 @@ export default function Lesson1() {
                                 </Typography>
                                 <Typography component="li">
                                     Accept their changes: Use if you want to
-                                    apply <em>only</em> changes that are{" "}
+                                    apply <em>only</em> the changes that are{" "}
                                     <em>NOT yours</em>
                                 </Typography>
                                 <Typography component="li">
@@ -62,14 +62,22 @@ export default function Lesson1() {
                                 </Typography>
                             </Box>
                             <Typography>
+                                By choosing one of these options, you are
+                                answering the question &quot;If I had made both
+                                changes on the same branch, how would I have
+                                made them?&quot;.
+                            </Typography>
+                            <Typography>
                                 These options might go by different names. For
                                 example,
                                 &quot;Accept&nbsp;your&nbsp;changes&quot; is
                                 sometimes called
-                                &quot;Accept&nbsp;current&quot;, and
+                                &quot;Accept&nbsp;current&quot;,
                                 &quot;Accept&nbsp;their&nbsp;changes&quot; may
                                 be referred to as
-                                &quot;Accept&nbsp;incoming&quot;.
+                                &quot;Accept&nbsp;incoming&quot;, and
+                                &quot;Custom&quot; is equivalent to
+                                &quot;Manual&nbsp;Resolution&quot;
                             </Typography>
                             <Typography>
                                 This tutorial presents these options to you
@@ -77,7 +85,8 @@ export default function Lesson1() {
                                 using a tool that comes with a special interface
                                 for merge conflicts, you have to resolve them
                                 manually with a text editor. This is equivalent
-                                to the &quot;Custom&quot; option on this website
+                                to the &quot;Custom&quot; option on this
+                                website.
                             </Typography>
                         </>,
                         <>
@@ -88,11 +97,17 @@ export default function Lesson1() {
                                 &quot;Accept&nbsp;their&nbsp;changes&quot;.
                             </Typography>
                             <Typography>
-                                These options are simply for when you want only
-                                one of the two sets of changes. This can happen
-                                if, for example, both sets of changes are doing
-                                the same thing, or if one of the sets of changes
-                                are no longer relevant.
+                                These options are for when you <em>only</em>{" "}
+                                want one of the two changes present in front of
+                                you. How do you know you only want one of the
+                                two changes present in front of you? There is no
+                                hard rule for this. You need to assess the
+                                unique scenario you&#39;re in.
+                            </Typography>
+                            <Typography>
+                                This can happen if, for example, both changes
+                                are doing the same thing, or if one of the
+                                changes are no longer relevant.
                             </Typography>
                         </>,
                         <Typography key={3}>
@@ -140,22 +155,22 @@ export default function Lesson1() {
                     Scenario
                 </Typography>
                 <Typography>
-                    You and a friend are creating a website for this chess club
-                    you&#39;re both in. You agree to divide your work as
-                    follows: your friend is responsible for improving the
-                    homepage, while you will be adding a new &quot;About
-                    us&quot; page. So you set off on your own branches to work
-                    on your parts until it&#39;s time to meet again and merge
-                    your work.
+                    You are a member of a chess club. You&#39;re creating a
+                    website for this chess club with your friend, another
+                    member. You agree to divide your work as follows: your
+                    friend is responsible for improving the homepage, while you
+                    will be adding a new &quot;About us&quot; page. So, you set
+                    off on your own branches to work on your parts until
+                    it&#39;s time to meet again and merge your work.
                 </Typography>
                 <Typography>
                     Unfortunately, there&#39;s been a miscommunication. You
                     didn&#39;t define your boundaries well, so you both did some
                     duplicate work (Oops!). Specifically, what&#39;s happened is
-                    your friend added a section to the homepage to lead users to
-                    the new &quot;About us&quot; page you were working on. But
-                    you added a similar section to the homepage, not realizing
-                    your buddy was doing this too.
+                    your friend added a section to the homepage to lead visitors
+                    to the new &quot;About us&quot; page you were working on.
+                    But you added a similar section to the homepage, not
+                    realizing your buddy had already done this on their branch.
                 </Typography>
                 <Typography>
                     You had a friendly discussion about this and came to the

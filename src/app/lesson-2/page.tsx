@@ -36,10 +36,12 @@ export default function Lesson2() {
                             </Typography>
                         </>,
                         <Typography key={1}>
-                            Example: Multiple team members are importing
-                            unrelated packages at the top of a file to use. To
-                            resolve the merge conflict that happens when these
-                            branches are merged together, use
+                            Example: Two team members are importing unrelated
+                            packages at the top of a file to use. When these
+                            branches are merged together, a merge conflict
+                            occurs because both teammates added new lines
+                            towards the top of this file. To resolve this merge
+                            conflict, use
                             &quot;Accept&nbsp;both&nbsp;changes&quot;.
                         </Typography>,
                         <Typography key={2}>Now try this exercise!</Typography>
@@ -51,8 +53,8 @@ export default function Lesson2() {
                 </Typography>
                 <Typography>
                     You&#39;re on a team working on an application with various
-                    widgets like the weather forecast, a music player, some
-                    sticky notes, and more. Different members of your team are
+                    widgets like the weather forecast, a music player, a
+                    calendar, and more. Different members of your team are
                     implementing bits of functionality to these widgets. This
                     week, you&#39;re adding next/prev track buttons to the music
                     player, and another teammate is creating a shuffle-playlist

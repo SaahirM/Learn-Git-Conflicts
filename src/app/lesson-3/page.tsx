@@ -25,7 +25,7 @@ export default function Lesson3() {
                                 resolve merge conflicts with a text editor
                                 manually if the need ever arises. This is also
                                 the only way to combine changes from two
-                                branches with more control, and not just by
+                                branches with more control instead of just
                                 duct-taping one change to the end of another.
                             </Typography>
                         </>,
