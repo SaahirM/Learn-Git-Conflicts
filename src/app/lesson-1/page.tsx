@@ -77,7 +77,7 @@ export default function Lesson1() {
                                 be referred to as
                                 &quot;Accept&nbsp;incoming&quot;, and
                                 &quot;Custom&quot; is equivalent to
-                                &quot;Manual&nbsp;Resolution&quot;
+                                &quot;Manual&nbsp;Resolution&quot;.
                             </Typography>
                             <Typography>
                                 This tutorial presents these options to you
@@ -123,26 +123,27 @@ export default function Lesson1() {
                         <>
                             <Typography>
                                 Example 2: Say you&#39;re developing a game with
-                                a team. While creating a level you decide the
-                                MainCharacter() needs to run a little faster for
-                                this level to feel fun, so you increase its
-                                speed. But one of your teammates implement the
-                                ability for someone playing this game to
-                                dynamically change the MainCharacter()&#39;s
-                                speed while playing the level, and so
-                                they&#39;ve removed the ability to manually set
-                                the MainCharacter()&#39;s speed.
+                                a team. This week, you&#39;re creating a new
+                                level, while your teammate Alice is making it so
+                                players can control how fast the MainCharacter()
+                                moves.
                             </Typography>
                             <Typography>
-                                In this scenario, your change is no longer
-                                relevant because in the version of this code
-                                with both your changes and your teammate&#39;s
-                                changes, there is no need to set the
-                                MainCharacter()&#39;s speed while initializing
-                                the level. So to resolve the merge conflict that
-                                happens when you merge your work together, you
-                                need to select
-                                &quot;Accept&nbsp;their&nbsp;changes&quot;.
+                                You decide the MainCharacter() needs to run a
+                                little faster for this level to feel fun, so you
+                                increase its speed. But Alice removed the
+                                ability to manually set the
+                                MainCharacter()&#39;s speed.
+                            </Typography>
+                            <Typography>
+                                In this scenario, you need to select
+                                &quot;Accept&nbsp;their&nbsp;changes&quot; to
+                                resolve the merge conflict that happens when you
+                                merge your work together. Your change is no
+                                longer relevant because, in the version of this
+                                code with both your changes, you no longer need
+                                to set the MainCharacter()&#39;s speed while
+                                initializing a level.
                             </Typography>
                         </>,
                         <Typography key={5}>
