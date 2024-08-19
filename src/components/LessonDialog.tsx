@@ -1,11 +1,13 @@
 "use client";
 
 import {
+    Box,
     Button,
     Dialog,
     DialogActions,
     DialogContent,
-    DialogTitle
+    DialogTitle,
+    Typography
 } from "@mui/material";
 import NavigateBeforeRoundedIcon from "@mui/icons-material/NavigateBeforeRounded";
 import NavigateNextRoundedIcon from "@mui/icons-material/NavigateNextRounded";
@@ -56,8 +58,25 @@ export default function LessonDialog({
             <DialogTitle>{title}</DialogTitle>
             <DialogContent>{CurrPageContent}</DialogContent>
             <DialogActions>
-                {page > 0 && PrevBtn}
-                {page < dialogPages.length - 1 ? NextBtn : LastBtn}
+                <Box
+                    width="calc(100% / 3)"
+                    display="flex"
+                    justifyContent="start"
+                >
+                    {page > 0 && PrevBtn}
+                </Box>
+                <Box
+                    width="calc(100% / 3)"
+                    display="flex"
+                    justifyContent="center"
+                >
+                    <Typography variant="body2">
+                        Page {page + 1} / {dialogPages.length}
+                    </Typography>
+                </Box>
+                <Box width="calc(100% / 3)" display="flex" justifyContent="end">
+                    {page < dialogPages.length - 1 ? NextBtn : LastBtn}
+                </Box>
             </DialogActions>
         </Dialog>
     );
