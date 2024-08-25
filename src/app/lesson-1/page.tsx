@@ -34,10 +34,10 @@ export default function Lesson1() {
                             </Typography>
                             <Typography>
                                 It doesn&#39;t know which changes are the
-                                &quot;real&quot; changes it needs to apply. It
-                                needs YOU, the human being with context
-                                information it doesn&#39;t have access to and
-                                can&#39;t understand, to resolve these problems.
+                                &quot;real&quot; ones it needs to apply. It
+                                needs YOU, a human being, to resolve these
+                                problems. You can understand context information
+                                it doesn&#39;t even have access to.
                             </Typography>
                         </>,
                         <>
@@ -104,10 +104,9 @@ export default function Lesson1() {
                             <Typography>
                                 These options are for when you <em>only</em>{" "}
                                 want one of the two changes present in front of
-                                you. How do you know you only want one of the
-                                two changes present in front of you? There is no
-                                hard rule for this. You need to assess the
-                                unique scenario you&#39;re in.
+                                you. How do you know you want this? There is no
+                                hard rule. You need to assess the unique
+                                scenario you are in.
                             </Typography>
                             <Typography>
                                 This can happen if, for example, both changes
@@ -161,13 +160,13 @@ export default function Lesson1() {
                     Scenario
                 </Typography>
                 <Typography>
-                    You are a member of a chess club. You&#39;re creating a
-                    website for this chess club with your friend, another
-                    member. You agree to divide your work as follows: your
-                    friend is responsible for improving the homepage, while you
-                    will be adding a new &quot;About us&quot; page. So, you set
-                    off on your own branches to work on your parts until
-                    it&#39;s time to meet again and merge your work.
+                    You are a member of a chess club and you are creating a
+                    website for it with your friend, another member. You agree
+                    to divide your work as follows: your friend is responsible
+                    for improving the homepage, while you will be adding a new
+                    &quot;About us&quot; page. So, you set off on your own
+                    branches to work on your parts until it&#39;s time to meet
+                    again and merge your work.
                 </Typography>
                 <Typography>
                     Unfortunately, there&#39;s been a miscommunication. You
