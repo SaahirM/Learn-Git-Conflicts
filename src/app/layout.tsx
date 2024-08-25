@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import type { ReactNode } from "react";
 import ThemeProvider from "./ThemeProvider";
 import ProgressProvider from "@/components/ProgressProvider";
+import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
     title: "Tutorial - Learn Git Conflicts",
@@ -21,6 +22,7 @@ export default function RootLayout({
                 <ThemeProvider>
                     <ProgressProvider>{children}</ProgressProvider>
                 </ThemeProvider>
+                <Footer />
             </body>
         </html>
     );
