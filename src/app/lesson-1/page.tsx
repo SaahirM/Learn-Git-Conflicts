@@ -3,20 +3,25 @@ import ChoiceProvider from "@/components/ChoiceProvider";
 import LessonDialog from "@/components/LessonDialog";
 import Resolver from "@/components/Resolver";
 import { Box, Container, Typography } from "@mui/material";
+import { Metadata } from "next";
 import Link from "next/link";
 
+export const metadata: Metadata = {
+    title: "Lesson 1 - Learn Git Conflicts"
+};
+
 export default function Lesson1() {
-    const title = "Lesson 1 - Accept mine or theirs";
+    const lessonTitle = "Lesson 1 - Accept mine or theirs";
 
     return (
         <main>
             <Container maxWidth="md" sx={{ mt: 2 }}>
                 <Typography variant="h2" component="h1">
-                    {title}
+                    {lessonTitle}
                 </Typography>
 
                 <LessonDialog
-                    title={title}
+                    title={lessonTitle}
                     dialogPages={[
                         <>
                             <Typography>

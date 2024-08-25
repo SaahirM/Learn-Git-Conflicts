@@ -4,7 +4,7 @@ import ThemeProvider from "./ThemeProvider";
 import ProgressProvider from "@/components/ProgressProvider";
 
 export const metadata: Metadata = {
-    title: "Tutorial - Resolve git merge conflicts",
+    title: "Tutorial - Learn Git Conflicts",
     description:
         "Learn how to resolve git merge conflicts in minutes with this " +
         "crash course!"

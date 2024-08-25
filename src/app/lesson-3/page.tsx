@@ -1,16 +1,22 @@
 import LessonDialog from "@/components/LessonDialog";
 import { Container, Typography } from "@mui/material";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+    title: "Lesson 3 - Learn Git Conflicts"
+};
 
 export default function Lesson3() {
-    const title = "Lesson 3 - (Advanced) Accept both inline";
+    const lessonTitle = "Lesson 3 - (Advanced) Accept both inline";
+
     return (
         <main>
             <Container maxWidth="md" sx={{ mt: 2 }}>
                 <Typography variant="h2" component="h1">
-                    {title}
+                    {lessonTitle}
                 </Typography>
                 <LessonDialog
-                    title={title}
+                    title={lessonTitle}
                     dialogPages={[
                         <>
                             <Typography>
