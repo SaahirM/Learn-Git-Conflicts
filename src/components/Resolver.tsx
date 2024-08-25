@@ -6,7 +6,8 @@ import {
     lighten,
     SxProps,
     ToggleButton,
-    ToggleButtonGroup
+    ToggleButtonGroup,
+    Tooltip
 } from "@mui/material";
 import { Kode_Mono } from "next/font/google";
 import { useChoice } from "./ChoiceProvider";
@@ -59,9 +60,18 @@ export default function Resolver({
                     Accept their changes
                 </ToggleButton>
                 <ToggleButton value="both">Accept both</ToggleButton>
-                <ToggleButton value="custom" disabled>
-                    Custom
-                </ToggleButton>
+                <Tooltip
+                    title="This functionality will be implemented soon!"
+                    placement="bottom-start"
+                    arrow
+                    describeChild
+                >
+                    <span>
+                        <ToggleButton value="custom" disabled>
+                            Custom
+                        </ToggleButton>
+                    </span>
+                </Tooltip>
             </ToggleButtonGroup>
             <Box
                 border="1px solid black"
